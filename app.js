@@ -5,24 +5,54 @@ const store = {
     // 5 or more questions are required
     questions: [
       {
-        question: 'What color is broccoli?',
+        question: 'Which NHL city has the biggest population?',
         answers: [
-          'red',
-          'orange',
-          'pink',
-          'green'
+          'New York City',
+          'Toronto',
+          'Chicago',
+          'Los Angeles'
         ],
-        correctAnswer: 'green'
+        correctAnswer: 'New York City'
       },
       {
-        question: 'What is the current year?',
+        question: 'Which one of these Canadian provinces does not have an NHL team?',
         answers: [
-          '1970',
-          '2015',
-          '2019',
-          '2005'
+          'British Columbia',
+          'Alberta',
+          'Nova Scotia',
+          'Manitoba'
         ],
-        correctAnswer: '2019'
+        correctAnswer: 'Nova Scotia'
+      },
+      {
+        question: 'As of the 2020-2021 season, how many U.S. states are home to a National Hockey League team?',
+        answers: [
+          '15',
+          '17',
+          '16',
+          '18'
+        ],
+        correctAnswer: '18'
+      },
+      {
+        question: 'Which of these European countries has produced the most active NHL players?',
+        answers: [
+          'Finland',
+          'Czech Republic',
+          'Sweden',
+          'Slovakia'
+        ],
+        correctAnswer: 'Sweden'
+      },
+      {
+        question: 'Which NHL city was founded before 1900?',
+        answers: [
+          'Seattle Kraken (Seattle, Washington)',
+          'Florida Panthers (Sunrise, Florida)',
+          'Vegas Golden Knights (Las Vegas, Nevada)',
+          'Edmonton Oilers (Edmonton, Alberta, Canada)'
+        ],
+        correctAnswer: 'Seattle Kraken (Seattle, Washington)'
       }
     ],
     quizStarted: false,

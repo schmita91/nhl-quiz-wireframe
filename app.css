@@ -6,3 +6,32 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+
+div.welcome {
+  border: solid 1px;
+  padding: 10px;
+  text-align: center;
+  background-color: gray;
+}
+
+div.quiz-interface {
+  border: solid 1px;
+  padding: 10px;
+  text-align: left;
+  background-color: lightgray;
+}
+
+div.answer-interface {
+  border: solid 1px;
+  padding: 10px;
+  text-align: left;
+  background-color: lightgray;
+}
+
+
+div.results {
+  border: solid 1px;
+  padding: 10px;
+  text-align: left;
+  background-color: lightslategray;
+}

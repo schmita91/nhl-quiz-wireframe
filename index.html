@@ -12,10 +12,57 @@
 </head>
 
 <body>
-  <header>
-    <h1>NHL Geography Quiz</h1>
-  </header>
-  <main></main>
+  <header><h1>NHL Geography Quiz</h1></header>
+  <main>
+<!-- This is roughly how the welcome page should look -->
+  <div class="welcome">
+    <h2>Welcome</h2>
+    <form>
+    <p>How well do you know NHL geography?</p>
+    <button type="submit">Begin Quiz</button>
+    </form>
+  </div>
+
+  <hr>
+
+<!-- Quiz Interface -->
+  <div class="quiz-interface">
+    <p>Question 1</p>
+    <p>Is this an example question?</p>
+
+    <form>
+      <ol type="A">
+        <li> Yes</li>
+        <li> No</li>
+      </ol>
+    <button type="submit" id="submitAnswer">Submit</button>
+    </form>
+
+    <p>Current Score: 0/10</p>
+  </div>
+
+    <hr>
+<!-- Answer Interface -->
+<div class="answer-interface">
+    <p>That is correct / incorrect</p>
+    <p>Answer Explanation</p>
+
+    <form>
+    <button type="submit" id="nextQuestion">Next Question</button>
+    </form>
+
+    <p>Current Score: 10/10</p>
+  </div>
+<hr>
+<!-- Quiz Results -->
+  <div class="results">
+    <h2>Results</h2>
+    <p>The quiz is complete. You scored 100 out of 100.</p>
+    <form>
+    <button type="submit" id="startOver">Start Over</button>
+    </form>
+
+  </main>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
   <script src="app.js"></script>
 </body>
